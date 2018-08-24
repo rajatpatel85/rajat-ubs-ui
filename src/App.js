@@ -11,7 +11,9 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+			Welcome to UBS portal.
+          To login to customer portal, click <code>here</code>
+		  To login to order portal, click <code>here</code>
         </p>
       </div>
     );
