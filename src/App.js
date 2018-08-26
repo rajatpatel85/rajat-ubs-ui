@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Customer from './Customer.js';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           To login to customer portal, click <code>here</code>
 		  To login to order portal, click <code>here</code>
         </p>
+        <Customer/>
       </div>
     );
   }
