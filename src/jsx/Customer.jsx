@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {BootstrapTable,
        TableHeaderColumn} from 'react-bootstrap-table';
-// import '../css/Table.css';
-import '../node_modules/react-bootstrap-table/css/react-bootstrap-table.css'
+import '../../node_modules/react-bootstrap-table/css/react-bootstrap-table.css'
 
 class Customer extends Component {
   state = {
@@ -28,18 +27,18 @@ class Customer extends Component {
 				 dataAlign='center'
 				 headerAlign="center"
 				 width="1%"
-				 tdStyle={{backgroundColor: 'grey'}}
-				 thStyle={{backgroundColor: 'green'}}
+				 tdStyle={{backgroundColor: 'white'}}
+				 thStyle={{backgroundColor: 'cornflowerblue'}}
 				 >
 					 ID
 				 </TableHeaderColumn>
 				 <TableHeaderColumn 
 				 dataField='customerFirstName'
-				 dataAlign='center'
+				 dataAlign='center'white
 				 headerAlign="center"
 				 width="2%"
-				 tdStyle={{backgroundColor: 'grey'}}
-				 thStyle={{backgroundColor: 'green'}}
+				 tdStyle={{backgroundColor: 'white'}}
+				 thStyle={{backgroundColor: 'cornflowerblue'}}
 				 >
 					 First Name
 				 </TableHeaderColumn>
@@ -49,8 +48,8 @@ class Customer extends Component {
 				 dataAlign='center'
 				 headerAlign="center"
 				 width="2%"
-				 tdStyle={{backgroundColor: 'grey'}}
-				 thStyle={{backgroundColor: 'green'}}
+				 tdStyle={{backgroundColor: 'white'}}
+				 thStyle={{backgroundColor: 'cornflowerblue'}}
 				 >
 					 Last Name
 				 </TableHeaderColumn>
@@ -60,8 +59,8 @@ class Customer extends Component {
 				 dataAlign='center'
 				 headerAlign="center"
 				 width="2%"
-				 tdStyle={{backgroundColor: 'grey'}}
-				 thStyle={{backgroundColor: 'green'}}
+				 tdStyle={{backgroundColor: 'white'}}
+				 thStyle={{backgroundColor: 'cornflowerblue'}}
 				 >
 					 Work Number
 				 </TableHeaderColumn>
@@ -71,8 +70,8 @@ class Customer extends Component {
 				 dataAlign='center'
 				 headerAlign="center"
 				 width="2%"
-				 tdStyle={{backgroundColor: 'grey'}}
-				 thStyle={{backgroundColor: 'green'}}
+				 tdStyle={{backgroundColor: 'white'}}
+				 thStyle={{backgroundColor: 'cornflowerblue'}}
 				 >
 					 Mobile Number
 				 </TableHeaderColumn>
@@ -82,8 +81,8 @@ class Customer extends Component {
 				 dataAlign='center'
 				 headerAlign="center"
 				 width="2%"
-				 tdStyle={{backgroundColor: 'grey'}}
-				 thStyle={{backgroundColor: 'green'}}
+				 tdStyle={{backgroundColor: 'white'}}
+				 thStyle={{backgroundColor: 'cornflowerblue'}}
 				 >
 					Registered Date
 				</TableHeaderColumn>
