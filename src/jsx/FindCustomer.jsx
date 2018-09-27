@@ -3,7 +3,7 @@ import {BootstrapTable,
        TableHeaderColumn} from 'react-bootstrap-table';
 import '../../node_modules/react-bootstrap-table/css/react-bootstrap-table.css'
 
-class Customer extends Component {
+class FindCustomer extends Component {
   state = {
     data: []
   };
@@ -92,4 +92,4 @@ class Customer extends Component {
 	}
 }
 
-export default Customer;
+export default FindCustomer;
