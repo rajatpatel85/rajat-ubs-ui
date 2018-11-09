@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Nav, NavItem, MenuItem, NavDropdown } from "react-bootstrap";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import FindCustomer from "./FindCustomer";
 import AddCustomer from "./AddCustomer";
 import Home from "./Home";
@@ -32,7 +32,7 @@ class HeaderTab extends Component {
             activeKey={this.state.highlightedKey}
             onSelect={this.handleSelect}
           >
-            <NavItem eventKey={1} componentClass={Link} href="/home" to="/">
+            <NavItem eventKey={1} componentClass={Link} href="/home" to="/home">
               Home
             </NavItem>
 
@@ -74,7 +74,7 @@ class HeaderTab extends Component {
             </NavItem>
           </Nav>
 
-          <Route path="/" component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/findCustomer" component={FindCustomer} />
           <Route path="/addCustomer" component={AddCustomer} />
           <Route path="/order" component={Order} />
